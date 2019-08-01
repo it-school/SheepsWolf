@@ -162,7 +162,6 @@ namespace SheepsWolf
                         Console.Write(Program.field[r, c] == Animal.free ? "  " : Program.field[r, c].Equals(Animal.sheep) ? "@" : "W");
                     }
                         Console.WriteLine();
-
                 }
                 Console.ResetColor();
                 Console.SetCursorPosition(10, 0);
